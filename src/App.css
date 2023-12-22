@@ -1,0 +1,62 @@
+.custom-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  width: 180px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.custom-button:hover {
+  background-color: #e0e0e0;
+}
+
+.custom-button:active {
+  background-color: #ccc;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.primary-button:hover {
+  background-color: #4096ff;
+}
+
+.primary-button:active {
+  background-color: #0958d9;
+}
+
+.dashed-button {
+  border: 2px dashed #007bff;
+  background-color: transparent;
+}
+
+.text-button {
+  background-color: transparent;
+}
+
+.link-button {
+  background-color: transparent;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ButtonWrapper {
+  display: flex;
+  gap: 10px;
+}
